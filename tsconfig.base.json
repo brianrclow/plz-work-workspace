@@ -14,7 +14,34 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@plz-work-workspace/xplat/core": ["libs/xplat/core/src/index.ts"],
+      "@plz-work-workspace/xplat/electron/core": [
+        "libs/xplat/electron/core/src/index.ts"
+      ],
+      "@plz-work-workspace/xplat/environments": [
+        "libs/xplat/core/src/lib/environments/base/index.ts"
+      ],
+      "@plz-work-workspace/xplat/features": [
+        "libs/xplat/features/src/index.ts"
+      ],
+      "@plz-work-workspace/xplat/nativescript/core": [
+        "libs/xplat/nativescript/core/src/index.ts"
+      ],
+      "@plz-work-workspace/xplat/nativescript/features": [
+        "libs/xplat/nativescript/features/src/index.ts"
+      ],
+      "@plz-work-workspace/xplat/nativescript/utils": [
+        "libs/xplat/nativescript/utils/src/index.ts"
+      ],
+      "@plz-work-workspace/xplat/utils": ["libs/xplat/utils/src/index.ts"],
+      "@plz-work-workspace/xplat/web/core": [
+        "libs/xplat/web/core/src/index.ts"
+      ],
+      "@plz-work-workspace/xplat/web/features": [
+        "libs/xplat/web/features/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
